@@ -1,3 +1,10 @@
+参考了C++ Primer Plus第五版中文版 P8
+C++实现                     源代码的扩展名
+UNIX                       C、cc、cxx、c
+GNU C++                    C、cc、cxx、cpp、c++
+Borland C++                Cpp
+Microsoft Visual C++       cpp、cxx、cc
+
 数据结构:数据结构是指相互之间存在一种或多种特定关系的数据元素的集合。
     逻辑结构:对数据之间关系的描述
 	    线性结构:数据元素的有序集合  有序表 一对一  如:集合
