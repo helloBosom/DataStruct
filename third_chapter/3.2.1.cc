@@ -20,8 +20,9 @@ typedef struct {
  * 进栈
  */
 int pushStack(SqStack &stack, int x) {
-    if (stack.top == maxSize-1){
-        return 0;}
+    if (stack.top == maxSize - 1) {
+        return 0;
+    }
     ++stack.top;
     stack.data[stack.top] = x;
     return 1;
@@ -30,14 +31,15 @@ int pushStack(SqStack &stack, int x) {
 /**
  * 出栈
  */
-int popStack(SqStack &stack,int &x){
-    if(stack.top==-1){
+int popStack(SqStack &stack, int &x) {
+    if (stack.top == -1) {
         return 0;
     }
     x = stack.data[stack.top];
     --stack.top;
     return 1;
 }
+
 /**
  * 顺序队列定义
  */
