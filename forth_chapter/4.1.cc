@@ -126,7 +126,7 @@ int subString(Str &subStr, Str str, int pos, int len) {
 }
 
 /**
- * 清空串`
+ * 清空串
  * @param str
  * @return
  */
