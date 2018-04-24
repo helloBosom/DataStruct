@@ -5,6 +5,7 @@ typedef struct {
     int no;
     char info;
 } VertexType;
+
 /**
  * 图
  */
