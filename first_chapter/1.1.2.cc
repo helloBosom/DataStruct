@@ -55,10 +55,8 @@ int SearchAndDelete(LNode *C, int x) {
         free(q);
         return 1;
     }
-
 }
 
 void merge(LNode *A, LNode *B, LNode *&C) {
 
 }
-
