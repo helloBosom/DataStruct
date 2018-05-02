@@ -28,6 +28,7 @@ int maxSize;
 
 void f(int x) {
     ++x;
+    printf("x" + x);
 }
 
 /**
@@ -38,6 +39,7 @@ void f(int x) {
 void fo(int x[], int n) {
 
 }
+
 /**
  *
  * @param x maxSize 为必须。  所传入的数组第二维长度也得是maxSize
@@ -52,7 +54,7 @@ int main() {
     /**
      * 此处a值为0，调用f(a)只是把a的值赋给x，执行完a值不变
      */
-    printf(a);//0
+    printf("a" + a);//0
 }
 
 

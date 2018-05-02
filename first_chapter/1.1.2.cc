@@ -8,7 +8,6 @@ void f(int *&x) {
 typedef struct Sqlist {
     int data[];
     int length;
-
 } Sqlist;
 
 int LocateElem(Sqlist &sqlist, int x);
@@ -16,15 +15,10 @@ int LocateElem(Sqlist &sqlist, int x);
 void insert(Sqlist &L, int x) {
     int p, i;
     p = LocateElem(L, x);
-    for (
-            i = L.length - 1;
-            i >=
-                    p;
-            --i) {
+    for (i = L.length - 1; i >= p; --i) {
         L.data[i + 1] = L.data[i];
     }
-    L.data[p] =
-            x;
+    L.data[p] = x;
     ++(L.length);
 }
 
