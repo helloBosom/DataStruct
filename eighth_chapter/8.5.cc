@@ -2,7 +2,7 @@ void merge(int R[], int low, int mid, int high);
 
 /**
  * 二路归并排序
- * 时间复杂度：O(nlog以2为底的n)
+ * 时间复杂度：O(n㏒₂n)
  * 空间复杂度：O(n)
  * @param R
  * @param low

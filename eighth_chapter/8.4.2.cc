@@ -24,7 +24,7 @@ void sift(int R[], int low, int high) {
 
 /**
  * 堆排序
- * 时间复杂度：O(nlog以2为底的n)
+ * 时间复杂度：O(n㏒₂n)
  * 空间复杂度：O(1)
  * 适用于关键字数很多的情况
  * @param R
